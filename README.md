@@ -1,7 +1,7 @@
 # Programacion-en-C
 Curso de programacion en C
 
-Author:Razon Venegas Enrique
+Author: Razon Venegas Enrique
 Comandos de Git
 mkdir make a new directory
 cd change directory
