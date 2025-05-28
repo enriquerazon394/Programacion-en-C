@@ -18,5 +18,3 @@ git pull origin main download the commits from HUB
 git branch Name Create a branch from commits
 git checkout Name move direction to branch Name
 git checkout -B Name create and move to branch
-
-//Linea temporal 0
