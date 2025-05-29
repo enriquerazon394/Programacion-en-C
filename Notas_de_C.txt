@@ -1,0 +1,46 @@
+Una variables es un espacio en memoria que sirve para almacenar un valor,
+el cual puede cambiar o no, tiene un identificador y un tipo de dato.
+En C, las variables deben de empezar su identificados con letras o _,
+nunca con numeros.
+Existen identificadores reservados:
+auto  double  int  struct
+breack  else  long  switch
+case  enum  registrer  typedef
+char  extern return  union
+const  float  short unsigned
+continue for signed  void
+default  goto  sizeof  volatile
+do  if  static  while
+Tipos de datos:
+  char 1 byte; -128,127
+  int 2 a 4 byte
+  float 4 byte
+  double 8 byte
+  void sin valor
+Modificadores:
+short: aplicable a int 2 byte
+long: duplica el tamaño
+signed: signo por defecto
+unsigened: valor absoluto
+
+Atributos de variables:
+identificador
+tipo
+direccion
+valor
+tiempo de vida
+ambito-local-global
+
+Apuntadores
+Son variables que guardan una direccion de memoria, apuntan a la direccion
+  int *apuntador;//tipo de dato al que apunta *es puntero nonbre del puntero
+  int *puntero= &var;  &var obtiene la direccion de la variable
+  null : puntero nulo, recomendable al inicializar punteros
+  void *puntero: puntero generico
+Indireccion de punteros
+Es obtener el valor al que apunta el puntero, es decir, el puntero apunta a dirx
+entonces se obtiene el valor contenido en dirx
+EX: 
+int var=10;
+int *puntero= &var;
+printf("%d",*puntero);
