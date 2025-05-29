@@ -1,0 +1,16 @@
+Directivas de PreProcesador
+El preprocesador es el primer programa que se ejecuta al empezar a compilar.
+Compilar es la traduccion del codigo C a codigo maquina.
+Las directivas no son sentencias en C.
+Sirven para dar instrucciones al compilador
+Todas las directivas empiezan con # no lleva ;
+Las mas comunes son:
+	#include y #define
+#include
+Incluye a nuestro programa librerias o codigo externo.
+Sintaxis: #include<libreria en directorio de C> Defecto
+	  #include"Ruta del archivo con nombre" Locales o propias
+#define
+Define macros para constantes u operaciones.
+Sintaxis: #define Macro valor
+	  #define PI=3.1415//define un valor para evitar numeros magicos.

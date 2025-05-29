@@ -1,0 +1,43 @@
+//Notas de C 1
+Librerias:
+//Libreria estandar de entradas y salidas
+	*#include<stdio.h>*
+Salida estandar:
+printf("cadena de control",datos0,,,n);
+	cadena de control:contiene los tipos de datos y formato de mostrarlo
+	dato0,,n:variables, constantes, datos de salida
+Codigos de formato:
+%d: dato se convierte a entero decimal
+%o: dato se convierte a entero octal
+%x: dato se convierte a entero hexadecimal
+%u: dato se convierte a entero entero sin signo
+%c: dato se convierte a entero caracter
+%e: dato se convierte a entero flotante notacion cientifica
+%f: dato se convierte a entero flotante 
+%.3f: dato con tres decimales de precision=fix 3
+%s: dato se convierte a entero cadena
+%lf: dato se convierte a entero doble
+%g: dato se convierte a entero flotante corto
+
+Secuencia de escape:Dan formato a la cadena de control
+\a: alarma
+\b: retroceso de espacio
+\f: avanza de pagina
+\n: salto de linea
+\t: tabulacion 4 espacio
+\v: tabulacion vertical
+\\ barra inclinada
+\? signo de interrogacion
+\" comillas dobles
+\000: numero octal
+\xhh: numero hexadecimal
+\0: nulo o cero
+
+ejemplo de printf
+printf("Mensaje %d - Mensaje %c",variable,valor_ascci);
+las variables corresponden cronologicamente al codigo de formato
+
+Entrada estandar: scanf("cadena de control",var0,,,varn);
+cadena de control: contiene el formato de los tipos de datos a ingresar.
+variables: datos a asignar
+tipos de datos iguales a la salida

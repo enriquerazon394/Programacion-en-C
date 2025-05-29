@@ -44,3 +44,42 @@ EX:
 int var=10;
 int *puntero= &var;
 printf("%d",*puntero);
+
+Operadores en C
+	aritmetricos
+= asignacion
++ suma
+- resta
+* producto
+/ division
+% residuo
+	relacionales
+== igual a
+!= distinto que
+< menor
+> mayor
+<= menor o igual a
+>= mayor o igual a
+	logicos
+&& and byte var_0&&var_1 variable 1 y 2
+|| or byte var_0||var_1 variable 1 o 2
+! negacion !(var_0||var_1)  no variable 1 ni 2
+	operadores de asignacion
+= asignacion
+*a=b a=a*b
+/a=b a=a/b
+%=
+-=
++=
+
+Prioridad de operadores
+operadores unitarios: indica el signo 	+ -
+producto, division, modulo 		*,/,%
+suma y resta				+,-
+
+incrementos o decrementos
+y=x++;// 1)y=x
+	 2)x=x+1
+y=++x;	 1)x=x+1
+	 2)y=x
+
