@@ -1,0 +1,33 @@
+Estructuras de control.
+Permiten modificar el flujo del programa.
+	.Secuencial- Instruccion tras instruccion.
+	.Seleccion- Modifica el flujo mediante la seleccion
+	.Repeticion- Realiza ciclos.
+Existen dos tipos de sentencias:
+Sentencias simples: Instrucciones que termina con ;
+Sentencias compuestas:Sentencias simples enceradas en llaves
+
+	Seleccion IF
+if(condicion verdadera)
+sentencia simple
+if(condicion true)
+{
+	sentencias compuestas;
+	sentencias compuestas;
+}
+else	//Si no
+	sentenciaDeNegacion;
+Anidacion
+if(condicion)
+{
+	sentencia;
+}
+else if(condicion de negacion)
+{
+	sentencia;
+	if(condicion multiple)
+	{
+	sentencia si y si
+	}
+}
+  
