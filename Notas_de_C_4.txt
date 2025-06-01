@@ -1,0 +1,41 @@
+Estructuras de seleccion:
+	/*Sentencia switch*/
+Se utiliza para seleccionar una de entre multiples alternativas.
+Su seleccion se basa en el valor de una variable de control o expresion.
+Sintaxis:
+switch(selector){
+case etiqueta: sentencia; break;
+case etiqueta: sentencia; break;
+...
+default: sentencia;
+}
+Nota: el selector solo puede ser entero o caracter.
+
+Estructuras de repeticion:
+	/*Sentencia while*/
+Es un ciclo condicionado.
+Mientras la condicion sea verdadera, se ejecuta el ciclo.
+Existe al minimo una variable involucrada:
+Inicializacion de variables de control.
+Prueba o revisa el estado de la condicion.
+Modificacion de variable.
+Sintaxis:
+while(condicion){
+	sentencia;
+}
+while(condicion||condicion&&condicion)
+{
+	Intrucciones0...n;
+}
+
+	/*Sentencia for*/
+Pertenece a un ciclo condicionado.
+Se ejecuta un numero fijo de veces.
+Sintaxis:
+//Inicializacion:Se inicializa la variable de control, de iteracion.
+//Condicion: Contiene la expresion logica que se realiza hasta que sea falsa la expresion.
+//Incremento: El paso de la(s) variable(s) de control
+for(inicializacion;condicion_iteracion;incremento)
+{
+sentencias;
+}
