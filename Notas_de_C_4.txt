@@ -18,6 +18,7 @@ Mientras la condicion sea verdadera, se ejecuta el ciclo.
 Existe al minimo una variable involucrada:
 Inicializacion de variables de control.
 Prueba o revisa el estado de la condicion.
+
 Modificacion de variable.
 Sintaxis:
 while(condicion){
@@ -39,3 +40,11 @@ for(inicializacion;condicion_iteracion;incremento)
 {
 sentencias;
 }
+
+	/*Sentencia do-while*/
+Se ejecuta al menos 1 vez.
+Posteriormente revisa la condicion.
+sintaxis:
+do
+	sentencia;
+while(condicion);
